@@ -1,0 +1,118 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('../../assets/background-pattern.png');
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login-box {
+
+  
+    text-align: center;
+    width: 400px;
+   
+}
+
+.logo {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 5px;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #2a2a2a;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 11px;
+    overflow: hidden;
+    padding: 5px;
+    /* width: 400px; */
+    border: 1px solid #b8b6b6;
+
+
+
+
+
+}
+
+.icon {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i {
+    color: #b8b6b6;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    color: black
+}
+
+input::placeholder {
+    color: #b8b6b6;
+    /* Change this to your desired grey shade */
+}
+
+.login-button {
+    width: 100%;
+    padding: 11px;
+    background-color: #4490C4;
+
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.login-button:hover {
+    background-color: #5cace0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .login-box {
+        padding: 20px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+}
